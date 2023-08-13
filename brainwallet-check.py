@@ -51,7 +51,7 @@ if __name__ == "__main__":
     amount_response = urllib.request.urlopen("http://blockchain.info/q/addressbalance/" + str(bcaddy))
     amount = amount_response.read().decode('utf-8')
 
-    print ("-----------------------------------------------------")
+    print ("------------------------------------------------------")
     print ("brainwallet string: " + word)
     print ("private key: " + str(privatekeysha))
     print ("bitcoin address: " + str(bcaddy))
